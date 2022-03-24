@@ -192,7 +192,7 @@ body {
   color: var(--primaryColor);
 }
 .txt_area p {
-  opacity: 0.7;
+  opacity: 0.8;
   font-size: 15.5px;
   font-weight: 500;
   margin: 20px auto 0;
@@ -212,8 +212,8 @@ body {
   cursor: pointer;
 }
 .txt_area button:hover {
-  background-color: #ffffff;
-  color: #191a22;
+  background-color: var(--primaryColor);
+  color: var(--HeaderBGOverlay);
   border: 1.5px solid #d8682700;
   transition: 0.2s;
 }
@@ -362,7 +362,27 @@ body {
   position: relative;
   color: #ffffff;
   /* border: 1px solid; */
-  padding: 1em;
+  padding: 0.5em;
+}
+
+.Upcoming {
+  width: 50%;
+  /* border: 1px solid; */
+  border-radius: 20px;
+  background-color: #0000003d;
+  box-shadow: 0px 0px 10px 0 #0000006c;
+  font-weight: bold;
+  /* font-size: 20px; */
+}
+
+.Upcoming p span {
+  color: var(--primaryColor);
+  /* font-size: 18px; */
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
 }
 .track_section .section {
   display: flex;
@@ -387,11 +407,7 @@ body {
   border-radius: 5px;
   z-index: -100;
 }
-.notice h3 {
-  text-transform: uppercase;
-  font-size: 13px;
-  color: var(--primaryColor);
-}
+
 .track_section .opening::before {
   font-family: "Font Awesome 5 free";
   /* content: "\e90d"; */
