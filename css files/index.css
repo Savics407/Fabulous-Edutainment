@@ -127,7 +127,8 @@ body {
   list-style-type: none;
 }
 
-.header .design {
+.header .design,
+.about .design {
   position: absolute;
   right: -50px;
   bottom: -150px;
@@ -138,7 +139,8 @@ body {
   animation-timing-function: linear;
   /* transform: rotate(40deg); */
 }
-.header .design2 {
+.header .design2,
+.about .design2 {
   position: absolute;
   top: 200px;
   left: -20px;
@@ -438,8 +440,7 @@ body {
 }
 
 .features {
-  /* border: 1px solid; */
-  padding: 0 100px 100px;
+  padding: 0 100px 150px;
 }
 
 .sec-header {
@@ -451,10 +452,10 @@ body {
 
 .heading-p {
   color: #282a36bb;
-  font-size: 14px;
+  font-size: 14.5px;
   font-weight: 500;
   letter-spacing: 1px;
-  line-height: 21px;
+  line-height: 1.7em;
 }
 
 .span {
@@ -620,7 +621,8 @@ body {
   /* margin: 20px; */
 }
 
-.statement button {
+.statement button,
+.ext button {
   cursor: pointer;
   transition: 0.2s;
   font-weight: 600;
@@ -632,7 +634,8 @@ body {
   border-radius: 5px;
 }
 
-.statement button:hover {
+.statement button:hover,
+.ext button:hover {
   background-color: #f1b74cc9;
   color: #191a22;
   /* border: 1.5px solid var(--primaryColor); */
@@ -1204,4 +1207,80 @@ body {
 .dim p:hover {
   color: var(--primaryColor);
   opacity: 1;
+}
+
+/* ================================ ABOUT page ================================== */
+.about {
+  /* border: 3px solid whitesmoke; */
+  position: relative;
+  /* height: 125vh; */
+  width: 100%;
+  background-color: var(--HeaderBGOverlay);
+  overflow: hidden; /* height: 70vh; */
+  margin-bottom: 100px;
+}
+
+.abt-content {
+  display: flex;
+  /* border: 1px solid white; */
+  padding: 3em;
+  width: 60%;
+  margin: auto;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.abt-content div {
+  /* width: 50%; */
+  /* border: 1px solid; */
+  text-align: center;
+}
+.abt-content h1 {
+  font-size: 100px;
+}
+.abt-content img {
+  /* border: 1px solid; */
+  width: 400px;
+  /* height: 600px; */
+}
+
+main {
+  width: 100%;
+  /* border: 5px solid black; */
+  background-image: url(../images/bg.png);
+  background-position: center center;
+  background-size: cover;
+  padding: 0 0 5em;
+}
+.about-content {
+  display: flex;
+  padding: 3em 5em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.abt-image img {
+  border-radius: 10px;
+}
+.abt-image {
+  margin-right: 30px;
+}
+.abt-text {
+  /* border: 1px solid; */
+  /* width: 55%; */
+  /* margin: 10px; */
+  /* background-color: #fff; */
+  border-radius: 5px;
+  padding: 3em;
+  box-shadow: 0 0 10px var(--textColor);
+}
+
+.abt-text h1 {
+  font-size: 30px;
+}
+
+.ext {
+  width: 80%;
+  margin: 0 auto;
 }

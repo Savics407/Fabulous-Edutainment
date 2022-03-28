@@ -10,6 +10,10 @@
         <link rel="shortcut icon" href="images/fab_logo.png" type="image/x-icon">
         <link rel="stylesheet" href="css files/index.css">
 	<link href="fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="components/features.js"></script>
+    <script src="components/testimonial.js"></script>
 
 
     </head>
@@ -19,27 +23,11 @@
                 <div class="design">
                     <img src="images/pngwing.com (6).png" alt="">
                 </div>
-                <div class="design2">
+                <div class="design2">               
                     <img src="images/slider-glob.png" alt="">
                 </div>
-                <div class="top_nav">
-                    <!-- <img src="images/pngwing.com (7).png" alt="logo"> -->
-                    <div class="logo">
-                        <img src="images/FE-logo.png" alt="">
-                    </div>
-                    <ul class="navigation a">
-                      <li class="nav_item"><a href="index.html" class="active">Home</a></li>
-                    <li class="nav_item"><a href="#">About</a></li>
-                      <li class="nav_item"><a href="#">Talent School</a></li>
-                      <li class="nav_item"><a href="#">Goat9ja</a></li>
-                      <li class="nav_item"><a href="#">Blog</a></li>
-                      <li class="nav_item"><a href="#">Contact</a></li>
-                    </ul>
-                    <!-- <div class="navigation b">
-                        <li class="nav_item order_now"><a href="#">Order Now</a></li>
-                        <li class="nav_item sign_in"><a href="#">Sign in</a></li>
-                    </div> -->
-                </div>
+                
+                <header-component></header-component>
                 
                 <div class="header_section">
                     <div class="txt_area">
@@ -55,7 +43,7 @@
                             <div>
                                 <i class="fa fa-university"></i>
                             </div>
-                            <div>
+                            <div>adddd
                                 <p><b>100+ </b> <br />Assisted Students</p>
                             </div>
                         </div> -->
@@ -94,38 +82,7 @@
  
 
             <div class="landing-contents">
-                <div class="features">
-                   <div class="sec-header">
-                       <h1 class="heading">The Best Talent <span class="span">Projection Platform</span></h1> 
-                       <p class="heading-p">Providing Services and opportunities Scalable for the entire globe</p>
-                    </div>
-                    <div class="featured-blocks">
-                        <div class="featured feat-bg1">
-                            <div class="feat-content">
-                                <p> <span class="feat-title"> Talent Mining</span></p>
-                                <p>We can help you discover the talent buried within you.</p>
-                                <button>Learn More &nbsp<i class="fas fa-angle-right "></i></button>
-                            </div>
-                           
-                        </div>
-                        <div class="featured feat-bg2">
-                            <div class="feat-content">
-                                <p> <span class="feat-title"> Talent Refining</span></p>
-                                <p>We help reform your talents</p>
-                                <button>Learn More &nbsp<i class="fas fa-angle-right "></i></button>
-                            </div>
-                        </div>
-                        <div class="featured feat-bg3">
-                            <div class="feat-content">
-                                <p> <span class="feat-title"> Talent Projection</span></p>
-                                <p>We create an enabling environment to showcase your talent and get it to the spotlight</p>
-                                <button>Learn More &nbsp<i class="fas fa-angle-right "></i></button>
-                            </div>
-                           
-                        </div>
-                    </div>
-                </div>
-
+                <features-component></features-component>
                 <div class="about-section">
                     <div class="about-image">
                         <img src="images/about.jpeg" alt="">
@@ -232,38 +189,7 @@
                 </div>
             </div>
 
-            <div class="testimonials">
-                    <div class="test-box shadow">
-                        <h1>Testimonials</h1>
-                        <p class="heading-p">Here's what people have to say</p>
-                        <div class="profile-message">
-                            <div class="profile">
-                                <!-- <img src="images/smiling.jpeg" alt=""> -->
-                            </div>
-                            <div class="testimony"> 
-                                <p> <i class="fas fa-quote-left quote r"></i>This is due to their excellent work, services and customer support. Its thoroughly refreshing to get such a personal touch. The tutors are very approachable and available to answer any question at any time.
-                                <i class="fas fa-quote-right quote r"></i></p>
-                                <div class="name">
-                                    <h1>John Doe</h1>
-                                    <p>Student</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="select-icon">
-                            <i class="fas fa-angle-left next l"></i>
-                            <i class="fas fa-angle-right next r"></i>
-                        </div>
-
-                        <div class="dots-container">
-                            <div class="dots active-dots"></div>
-                            <div class="dots"></div>
-                            <div class="dots"></div>
-                            <div class="dots"></div>
-                        </div>
-                    </div>
-                    
-            </div>
-
+            <testimonial-component></testimonial-component>
             <div class="partnership">
                 <div class="sec-header">
                     <h1 class="heading">Our <span class="span"> Partners</span></h1>
@@ -278,60 +204,7 @@
             </div>
 
         </div>    
-        <div class="footer">
-            <div class="footer-contents">
-                <div class="footer-logo">
-                    <img src="images/FE-logo.png" alt="">
-                    <p>Fabulous Edutainment is a fuelled by an immeasurable passion to restructure the education
-                        and entertainment sectors in africa through creation of diverse opportunities for purposeful talents.</p>
-                </div>
-                <div class="quick-links">
-                    <h2 class="footer-heading">Important Links</h2>
-                    <ul class="lists">
-                        <li>About</li>
-                        <li>Talent School</li>
-                        <li>Goat9ja</li>
-                        <li>Our Services</li>
-                        <li>Blog/ Community</li>
-                        <li>Contact Us</li>
-                    </ul>
-                </div>
-                <div class="company-details">
-                    <h2 class="footer-heading">Contact </h2>
-                    <ul class="lists">
-                        <!-- <li> <i class="fa fa-map-marker-alt" aria-hidden="true"></i></i>~ Street View, Enugu - Nigeria</li> -->
-                        <li> <i class="fas fa-envelope"></i>www.fabulousedu@gmail.com</li>
-                        <li> <i class="fas fa-phone"></i>+2348051045094</li>
-                    </ul>
-                    <div class="mail-list">
-                    <input type="email" name="" id="" placeholder="Enter Email">
-                    <input type="button" value="Submit">
-                    </div>
-                </div>
-                <div class="socials">
-                    <i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i>
-                    <i class="fab fa-linkedin-in"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-youtube"></i>
-                    
-
-                </div>
-            </div>
-            <div class="copyright">
-                <div class="copyright-session">
-                  <p> Copyright &copy2022 fabulousedutainment.com</p>
-                </div>
-                <div class="dim">
-                   <p> Privacy Policy </p>
-                   <p>Terms of Use</p>
-                </div>
-            </div>
-        </div>    
-
-
-
-
-
+       <footer-component></footer-component>
 
     </body>
 
