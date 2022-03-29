@@ -27,14 +27,14 @@ class Footer extends HTMLElement {
                     <h2 class="footer-heading">Contact </h2>
                     <ul class="lists">
                         <!-- <li> <i class="fa fa-map-marker-alt" aria-hidden="true"></i></i>~ Street View, Enugu - Nigeria</li> -->
-                        <li> <i class="fas fa-envelope"></i>www.fabulousedu@gmail.com</li>
-                        <li> <i class="fas fa-phone"></i>+2348051045094</li>
+                        <li> <i class="fas fa-envelope"><a href="mailto:www.fabulousedu@gmail.com"></i>www.fabulousedu@gmail.com</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+2348051045094">+2348051045094 </a></li>
                     </ul>
                     <div class="mail-list">
-                        <form action="" method="post">
+                   <!--     <form action="" method="post"> -->
                             <input type="email" name="" id="" placeholder="Enter Email">
                             <input type="button" value="Submit">
-                       </form>
+                     <!-- </form> -->
                     </div>
                 </div>
                 <div class="socials">
