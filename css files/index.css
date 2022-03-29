@@ -1412,7 +1412,8 @@ form {
   text-align: center;
 }
 
-.inputs input {
+.inputs input,
+.submit input {
   /* border-radius: 10px; */
   border: none;
   padding: 0.8em;
