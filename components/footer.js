@@ -15,12 +15,12 @@ class Footer extends HTMLElement {
                 <div class="quick-links">
                     <h2 class="footer-heading">Important Links</h2>
                     <ul class="lists">
-                        <li>About</li>
-                        <li>Talent School</li>
-                        <li>Goat9ja</li>
-                        <li>Our Services</li>
-                        <li>Blog/ Community</li>
-                        <li>Contact Us</li>
+                        <a href="about.html"><li>About</li></a>
+                        <a href="#"><li>Talent School</li></a>
+                        <a href="#"><li>Goat9ja</li></a>
+                        <a href="#"><li>Our Services</li></a>
+                       <a href="#"><li>Blog/ Community</li></a>
+                        <a href="contact.html"><li>Contact Us</li></a>
                     </ul>
                 </div>
                 <div class="company-details">
