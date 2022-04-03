@@ -1,17 +1,26 @@
-class Testimonial extends HTMLElement {
-    constructor() {
-        super();
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css files/index.css">
+    <link href="fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c49ba4391f.js" crossorigin="anonymous"></script>
+    <title>testimonial</title>
+    <script src="components/header.js"></script>
 
-    connectedCallback() {
-        this.innerHTML = `
-           <div class="testimonials">
+</head>
+<body>
+                <header-component></header-component>
+
+    <div class="testimonials">
         <div class="test-box shadow">
             <h1>Testimonials</h1>
             <p class="heading-p">Here's what people have to say</p>
             <div class="profile-message">
                 <div class="profile">
-                     <img src="images/smiling.jpeg" alt="" id="img" >
+                    <img src="images/smiling.jpeg" alt="" id="img">
                 </div>
                 <div class="testimony">
                     <p> <i class="fas fa-quote-left quote r"></i>
@@ -38,7 +47,11 @@ class Testimonial extends HTMLElement {
         </div>
     
     </div>
-        `
-    }
-}
-customElements.define('testimonial-component', Testimonial)
+
+    <!-- JavaScript -->
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
