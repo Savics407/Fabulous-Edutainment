@@ -1,18 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css files/index.css">
+    <link rel="stylesheet" href="css files/index.css">
+    <link rel="stylesheet" href="css files/restyle.css">
+    <link rel="stylesheet" href="css files/index.css">
     <link href="fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
-<script src="https://kit.fontawesome.com/c49ba4391f.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c49ba4391f.js" crossorigin="anonymous"></script>
     <title>testimonial</title>
     <script src="components/header.js"></script>
+    <script src="components/mobileMenu.js"></script>
 
 </head>
+
 <body>
-                <header-component></header-component>
+    <!-- <header-component></header-component> -->
+    <div class="top_nav sticky">
+        <div class="logo">
+            <a href="https://fabulousedutainment.com"><img src="images/FE-logo.png" alt=""></a>
+        </div>
+        <ul class="navigation a">
+            <li class="nav_item"><a href="https://fabulousedutainment.com" class="active">Home</a></li>
+            <li class="nav_item"><a href="about.html">About</a></li>
+            <li class="nav_item"><a href="https://fabulousedutainment.com">Talent School</a></li>
+            <li class="nav_item"><a href="https://fabulousedutainment.com">Goat9ja</a></li>
+            <li class="nav_item"><a href="https://fabulousedutainment.com">Blog</a></li>
+            <li class="nav_item"><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="bar">
+            <i class="fa-solid fa-bars" id="bar"></i>
+        </div>
+    </div>
+
+    <div class="mobile-menu">
+        <div class="logo">
+            <a href="https://fabulousedutainment.com"><img src="images/FE-logo.png" alt=""></a>
+
+            <div class="close">
+                x
+            </div>
+        </div>
+        <ul class="navigation a">
+            <li class="nav_item"><a href="https://fabulousedutainment.com" class="active">Home</a></li>
+            <li class="nav_item"><a href="about.html">About</a></li>
+            <li class="nav_item"><a href="https://fabulousedutainment.com">Talent School</a></li>
+            <li class="nav_item"><a href="https://fabulousedutainment.com">Goat9ja</a></li>
+            <li class="nav_item"><a href="https://fabulousedutainment.com">Blog</a></li>
+            <li class="nav_item"><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <!-- <div class="mobile-menu-overlay"></div> -->
 
     <div class="testimonials">
         <div class="test-box shadow">
@@ -37,7 +78,7 @@
                 <i class="fas fa-angle-left next l" id="prev"></i>
                 <i class="fas fa-angle-right next r" id="next"></i>
             </div>
-    
+
             <div class="dots-container">
                 <div class="dots active-dots" id="one"></div>
                 <div class="dots" id="two"></div>
@@ -45,13 +86,15 @@
                 <div class="dots" id="four"></div>
             </div>
         </div>
-    
+
     </div>
 
     <!-- JavaScript -->
 
-    
+    <script src="test.js"></script>
 
     <script src="index.js"></script>
+    <script src="nav.js"></script>
 </body>
+
 </html>

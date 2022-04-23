@@ -1,0 +1,348 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .top_nav {
+        padding: 1em 5em !important;
+    }
+    
+    .header {
+        position: relative;
+        height: 800px !important;
+    }
+    .header_section {
+        flex-direction: column-reverse;
+        width: 100%;
+        /* border: 1px solid white; */
+        height: 610px;
+    }
+
+    .header_section .txt_area {
+        /* border: 1px solid; */
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .txt_area .catchy {
+        font-size: 30px !important;
+    }
+
+    .txt_area p {
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0;
+    }
+
+    .header_image_section {
+        /* border: 1px solid; */
+        width: 100% !important;
+    }
+
+    .header_image {
+        /* display: none; */
+        /* border: 1px solid; */
+        left: -30px !important;
+        bottom: -50px;
+        width: 500px;
+    }
+    .desc3 {
+        right: 10px !important;
+        bottom: 40px !important;
+        padding: 10px 10px;
+        width: 150px;
+    }
+
+    .header .design2 {
+        /* width: 100%; */
+        right: 0;
+        left: -60% !important;
+        top: 100px;
+    }
+
+    .design2 img {
+        width: 1000px !important;
+    }
+
+    .track_section {
+        padding: 1.5em;
+    }
+    .track_section .section {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .Upcoming {
+        /* border: 1px solid; */
+        width: 100%;
+        margin: 15px 0;
+    }
+    .featured-blocks {
+        flex-wrap: wrap;
+    }
+    .featured {
+        /* border: 1px solid; */
+        width: 100%;
+        margin-bottom: 20px
+    }
+
+    .features {
+        padding: 0 20px 50px !important;
+    }
+
+    .services {
+        padding: 1.5em 1.5em 3em;
+    }
+
+    .course-block {
+        position: relative;
+        width: 300px;
+        height: 250px;
+        /* border: 1px solid; */
+    }
+
+    .testimonials {
+        padding: 0em !important;
+    }
+
+    .profile-message {
+        flex-direction: column;
+    }
+
+    .profile {
+    margin-left: 50px;
+        /* width: 100%; */
+    }
+
+    .testimony {
+        width: 100%;
+        text-align: center;
+    }
+
+    .dots-container {
+        left: 38%;
+    }
+
+    .footer {
+        padding: 2em;
+    }
+
+    
+        .footer-logo {
+            width: 100% !important;
+            text-align: center;
+        }
+
+        .quick-links {
+            margin: 20px 0;
+            width: 100% !important;
+            text-align: center;
+        }
+
+        .company-details {
+            text-align: center;
+            width: 100%;
+        }
+
+        .mail-list {
+            padding-left: 30px;
+        }
+
+    .socials{ 
+        flex-direction: row; 
+        margin:40px auto 0;   
+        width: 70%;
+    }
+
+    .copyright {
+        flex-direction: column-reverse;
+    }
+}   
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .example {
+        background: green;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .navigation {
+        display: none !important;
+        /* border: 1px solid; */
+    }
+
+    .mobile-menu .navigation {
+        display: block !important;
+        /* border: 1px solid; */
+        /* margin-bottom: 20px; */
+    }
+
+    .top_nav {
+        padding: 1em 3em !important;
+    }
+
+
+    .bar {
+        /* cursor: pointer; */
+        display: block;
+    }
+
+    .page_container {
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .header {
+        position: relative;
+        height: 110vh;
+    }
+    .header_section .txt_area {
+        /* border: 1px solid; */
+        width: 60%;
+    }
+
+    .txt_area .catchy {
+        /* margin-top: 10px; */
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .txt_area p {
+        opacity: 0.8;
+        font-size: 14px;
+  line-height: 21px;
+
+    }
+
+    .txt_area button {
+        padding: 1em 1.5em;
+        font-size: 12px;
+    }
+.header_image_section {
+    /* border: 1px solid; */
+    width: 40%;
+}
+    .header_image {
+        /* display: none; */
+        /* border: 1px solid; */
+        left: -150px;
+        /* bottom: -50px; */
+  width:500px;
+    }
+    .header .design2 {
+        /* width: 100%; */
+        right: 0;
+        left: 0;
+        top: 100px;
+    }
+
+    .design2 img {
+        width: 100%;
+    }
+
+    .desc3 {
+        position: absolute;
+        /* right: 0; */
+        /* top: 150px; 
+      */
+        right: -50px;
+        bottom: 70px;
+    }
+
+    .features {
+        padding: 0 20px 150px;
+    }
+
+    .feat-content p {
+        font-size: 14px;
+        font-weight: 500;
+
+    }
+
+.feat-content button {
+  padding: 7px 15px;
+}
+    .service-listing {
+        /* border: 1px solid; */
+        display: flex;
+        flex-wrap: wrap;
+  /* justify-content: space-around; */
+    }
+    .serve {
+        width: 100%;
+    }
+
+    .talent-school,
+    .visual-hype,
+    .event-host {
+        width:80%;
+    }
+
+.courses {
+    flex-direction: column;
+  padding: 2em 0 7em 0em;
+  /* border: 1px solid; */
+}
+
+.courses-intro {
+    /* border: 1PX solid; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.courses-intro h1 { 
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.featIck {
+    display: none;
+}
+
+
+.dis {
+    /* border: 1px solid; */
+  width: 100%;
+}
+
+.testimonials {
+    padding: 2em;
+ }
+
+.test-box {
+    padding: 4em 0;
+}
+
+.profile-message {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* border: 1px solid; */
+    padding: 2em 1em;
+
+}
+.profile {
+    left: 0;
+}
+.footer-contents {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    z-index: 1000;
+}
+.footer-logo {
+    /* border: 1px solid; */
+    width: 50%;
+    /* z-index: 1; */
+}
+
+.quick-links {
+   /* border: 1px solid;  */
+   width: 40%;
+}
+
+.socials {
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+}

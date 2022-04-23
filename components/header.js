@@ -18,7 +18,11 @@ class Header extends HTMLElement {
                       <li class="nav_item"><a href="https://fabulousedutainment.com">Blog</a></li>
                       <li class="nav_item"><a href="contact.html">Contact</a></li>
                     </ul>
+                    <div class="bar">
+                      <i class="fa-solid fa-bars" id="bar"></i>
+                   </div>
                 </div>
+                
       `
   }
 }

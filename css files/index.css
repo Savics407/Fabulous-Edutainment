@@ -59,9 +59,10 @@ body {
 .sticky {
   background-color: var(--HeaderBGOverlay);
   position: fixed  !important;
-  z-index:9;
+  z-index: 1000000;
   transition: 0.5s;
   opacity: 1;
+  /* border-bottom: none  ; */
   /* border: 1px solid whitesmoke; */
 }
 .top_nav {
@@ -151,6 +152,65 @@ body {
   list-style-type: none;
 }
 
+.mobile-menu {
+  background-color: var(--HeaderBGOverlay);
+  padding: 2em;
+  color: #fff;
+  width: 350px;
+  height: 100%;
+  position: fixed;
+  top:0;
+  z-index: 1000000;
+  -webkit-transform: translateX(-100%);
+  -ms-transform:translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.transform {
+  transform: translateX(0);
+}
+
+.mobile-menu .logo {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.mobile-menu .navigation {
+  display: block;
+  /* border: 1px solid; */
+  /* margin-bottom: 20px; */
+}
+.mobile-menu img {
+  width: 200px;
+}
+
+.mobile-menu-overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #000000bd;
+  z-index: 100000;
+  transition: all 1s ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.bar {
+  cursor: pointer;
+  display: none;
+}
+.visible {
+  visibility: visible;
+  opacity: 1;
+}
 .header .design,
 .about .design,
 .contact .design {
@@ -393,7 +453,7 @@ body {
   padding: 0.5em;
 }
 
-.Upcoming {
+.Upcoming { 
   width: 50%;
   /* border: 1px solid; */
   border-radius: 20px;
@@ -676,7 +736,7 @@ body {
 .services {
   position: relative;
   top: -70px;
-  /* width: 85%; */
+  width: 100%;
   /* border: 2px solid; */
   margin: 0 auto 50px;
   padding: 5em 6em 9em;
@@ -685,6 +745,7 @@ body {
   /* box-shadow: 0px 1px 20px 2px #f3f7f9; */
   color: #f3f7f9;
   z-index: 1;
+  /* overflow: hidden; */
 }
 
 .services::before {
@@ -693,10 +754,11 @@ body {
   background-color: inherit;
   /* border: 2px solid; */
   width: 100%;
+  height: 6em;
   left: 0;
   top: -50px;
   transform: skewY(2deg);
-  padding: 3em;
+  /* padding: 3em; */
   z-index: -1;
 }
 
@@ -1056,7 +1118,7 @@ body {
   background-image: url(../images/testimonial.jpg);
   background-position: top center;
   background-size: cover;
-  /* z-index: 1000; */
+  /* z-index: 100; */
  
 }
 
@@ -1197,6 +1259,7 @@ animation-timing-function: linear;
 .partners {
   /* border: 1px solid; */
   padding: 0 5em;
+  flex-wrap: wrap;
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -1329,7 +1392,6 @@ animation-timing-function: linear;
 }
 
 .socials {
-  /* border: 1px solid; */
   color: white;
   display: flex;
   flex-direction: column;
@@ -1489,7 +1551,7 @@ main .feat-content button {
   /* width: 60%; */
   margin: auto;
   color: white;
-  z-index: 100000;
+  z-index: 10000;
 }
 
 .contact-text div {
