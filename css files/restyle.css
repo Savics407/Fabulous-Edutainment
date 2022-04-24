@@ -474,6 +474,7 @@ form {
 
 .access-point {
     width: 100%;
+    /* border: 1px solid; */
 }
 form {
     width: 90%;

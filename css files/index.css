@@ -1622,7 +1622,7 @@ main .feat-content button {
   box-shadow: 0 0 5px rgb(161, 161, 161);
 }
 
-.support i {
+.support .fa-solid {
   font-size: 30px;
   margin-right: 20px;
   color: var(--primaryColor);
@@ -1634,6 +1634,7 @@ main .feat-content button {
   font-size: 22px;
   color: var(--primaryColor);
   margin-bottom: 10px;
+  /* border: 1px solid; */
 }
 
 .support p {
@@ -1642,8 +1643,8 @@ main .feat-content button {
 }
 
 .follow {
-  margin: auto;
-  width: 350px;
+  /* margin: auto; */
+  width: 40%;
   background-color: var(--HeaderBGOverlay);
   padding: 3em 2em;
   border-radius: 10px;
@@ -1655,6 +1656,7 @@ main .feat-content button {
 
 .follow .socials {
   flex-direction: row;
+  /* border: 1px solid; */
 }
 
 .form {

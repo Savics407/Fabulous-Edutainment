@@ -86,7 +86,7 @@ const testimonials = [
      {
         name: "Swtboy-Mane",
         title: "Singer",
-        testimony: "Fabulous Edutainment is the best talent company I have ever seen. This company nurtured me and made me who I am today. With the push, encouragement and trainings the company have given me, I now record my songs even with the help of their supervision. Fabulous Edutainment is simply the best ",
+        testimony: "Fabulous Edutainment is the best talent company I have ever seen. This company nurtured me and made me who I am today. With the push, encouragement and trainings the company have given me a sense of purpose through music. I now record my songs in FE studio with their supervision. Fabulous Edutainment is simply the best ",
         image: "testimonial3",
     },
 ];
