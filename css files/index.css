@@ -853,6 +853,7 @@ body {
   right: 0;
   left: 0;
   z-index: 1000;
+  overflow: scroll;
   /* visibility: visible; */
   visibility: hidden;
   opacity: 0;
