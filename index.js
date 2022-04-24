@@ -45,3 +45,18 @@ popup.addEventListener('click', () => {
 
 
 
+// COURSE SCROLL 
+
+// const left = document.querySelector('.l')
+// const right = document.querySelector('.r')
+// const cBlock = document.querySelectorAll('.course-content')
+
+// left.addEventListener('click', () => {
+//     alert('Pop')
+   
+//     cBlock.style.left= "-350px"
+// })
+
+// right.addEventListener('click', () => {
+//     alert('Pop')
+// })

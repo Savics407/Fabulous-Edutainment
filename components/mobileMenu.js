@@ -11,7 +11,7 @@ class Mobile extends HTMLElement {
         <a href="https://fabulousedutainment.com"><img src="images/FE-logo.png" alt=""></a>
 
         <div class="close">
-            x
+            <i class="fa-solid fa-xmark"></i>
         </div>
     </div>
     <ul class="navigation a">
