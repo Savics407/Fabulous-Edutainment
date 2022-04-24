@@ -16,11 +16,11 @@ class Mobile extends HTMLElement {
     </div>
     <ul class="navigation a">
         <li class="nav_item"><a href="https://fabulousedutainment.com" class="active">Home</a></li>
-        <li class="nav_item"><a href="about.html">About</a></li>
+        <li class="nav_item"><a href="about">About</a></li>
         <li class="nav_item"><a href="https://fabulousedutainment.com">Talent School</a></li>
         <li class="nav_item"><a href="https://fabulousedutainment.com">Goat9ja</a></li>
         <li class="nav_item"><a href="https://fabulousedutainment.com">Blog</a></li>
-        <li class="nav_item"><a href="contact.html">Contact</a></li>
+        <li class="nav_item"><a href="contact">Contact</a></li>
     </ul>
 </div>
 <div class="mobile-menu-overlay"></div>

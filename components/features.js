@@ -15,7 +15,7 @@ class Features extends HTMLElement {
                             <div class="feat-content">
                                 <p> <span class="feat-title"> Talent Mining</span></p>
                                 <p>We can help you discover the talent buried within you.</p>
-                                <a href="about.html"><button>Learn More &nbsp<i class="fas fa-angle-right "></i></button></a>
+                                <a href="about"><button>Learn More &nbsp<i class="fas fa-angle-right "></i></button></a>
                             </div>
                            
                         </div>
@@ -23,14 +23,14 @@ class Features extends HTMLElement {
                             <div class="feat-content">
                                 <p> <span class="feat-title"> Talent Refining</span></p>
                                 <p>We help reform your talents</p>
-                                <a href="about.html"><button>Learn More &nbsp<i class="fas fa-angle-right "></i></button></a>
+                                <a href="about"><button>Learn More &nbsp<i class="fas fa-angle-right "></i></button></a>
                             </div>
                         </div>
                         <div class="featured feat-bg3">
                             <div class="feat-content">
                                 <p> <span class="feat-title"> Talent Projection</span></p>
                                 <p>We create an enabling environment to showcase your talent and get it to the spotlight</p>
-                                <a href="about.html"><button>Learn More &nbsp<i class="fas fa-angle-right "></i></button></a>           
+                                <a href="about"><button>Learn More &nbsp<i class="fas fa-angle-right "></i></button></a>           
                             </div>
                            
                         </div>

@@ -23,6 +23,7 @@
         } */
     </style>
 </head>
+
 <body>
     <div class="page_container">
         <div class="contact">
@@ -32,7 +33,7 @@
             <!-- <div class="design2">
                 <img src="images/slider-glob.png" alt="">
             </div> -->
-    
+
             <header-component></header-component>
             <mobile-component></mobile-component>
 
@@ -64,24 +65,26 @@
                 <div class="follow">
                     <!-- <i class="fa-solid fa-headset"></i> -->
                     <div>
-                    <h2 style="text-align: center;">We are Social</h2>
-                    <div class="socials">
-                        <a href="https://m.facebook.com/fabulousedutainment/"><i class="fab fa-facebook-f"></i></a>
-                        
-                        <i class="fab fa-twitter"></i>
-                        
-                        <i class="fab fa-linkedin-in"></i>
-                        <a href="https://www.instagram.com/fabulousedutainment/"><i class="fab fa-instagram"></i></a>
-                        
-                        <a href="https://www.youtube.com/channel/UCk397miD9Llezf3Hl8hdVFw?app=desktop"><i class="fab fa-youtube"></i></a>
-                    </div>
+                        <h2 style="text-align: center;">We are Social</h2>
+                        <div class="socials">
+                            <a href="https://m.facebook.com/fabulousedutainment/"><i class="fab fa-facebook-f"></i></a>
+
+                            <i class="fab fa-twitter"></i>
+
+                            <i class="fab fa-linkedin-in"></i>
+                            <a href="https://www.instagram.com/fabulousedutainment/"><i
+                                    class="fab fa-instagram"></i></a>
+
+                            <a href="https://www.youtube.com/channel/UCk397miD9Llezf3Hl8hdVFw?app=desktop"><i
+                                    class="fab fa-youtube"></i></a>
+                        </div>
                         <!-- <h2>Contact Support</h2>
                                         <a href="tel:+2348051045094">
                                             <p>+234 805 104 5094</p>
                                         </a> -->
                     </div>
                 </div>
-                
+
             </div>
             <!-- <div class="follow">
                 <div>
@@ -94,38 +97,37 @@
                     </div>
                 </div>
             </div> -->
-            <div class="form">
-                
-                <form method="post" action="contact.php">
-                    <h1 class="heading">Get in touch <span class="span">with Us!</span></h1>
-                    <p class="heading-p">Kindly fill the form below and we will get back to you as soon as possible!</p>
-                   <div class="inputs">
-                        <div>
-                            <i class="fa-solid fa-user" id="icon"></i>
-                            <input type="text" name="" id="" placeholder="First Name" required>
-                        </div>                    
-                        <div>
-                            <i class="fa-solid fa-user"></i>
-                            <input type="text" name="" id="" placeholder="Last Name" required>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-envelope"></i>
-                            <input type="email" name="" id="" placeholder="Enter Your Email" required>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-phone"></i>
-                            <input type="tel" name="" id="" placeholder="Enter Phone No." required>
-                        </div>
-                   </div>
-                   <div class="textarea">
-                    <i class="fa-solid fa-message"></i>
-                    <textarea name="" id="" cols="30" rows="-10" placeholder="Message" required ></textarea>
-                   </div>
-                   <div class="submit">
-                        <input type="button" value="Send Request">
-                   </div>
-                </form>
+            <div class="success">
+                <h1>Your Message was sent Successfully</h1>
+                Our Support Team will be in touch with you shortly
             </div>
+            <style>
+                .success {
+                    border: 1px solid;
+                    padding: 2em;
+                    background-color: var(--HeaderBGOverlay);
+                    margin: 2em auto;
+                    width: 70%;
+                    border-radius: 10px;
+                    text-align: center;
+                    color: #FFF;
+                }
+
+                .success h1 {
+                    color: var(--primaryColor);
+                    margin-bottom: 10px;
+                }
+
+@media only screen and (max-width: 600px) {
+    .success {
+            width: 83%;
+    }
+         .success h1 {
+            font-size: 20px;
+
+        }
+}
+            </style>
         </div>
     </div>
     <footer-component></footer-component>
@@ -133,5 +135,6 @@
     <script src="index.js"></script>
 
     <script src="//code.tidio.co/ptorquci43thliny057gw2c0jw3o8onk.js" async></script>
-    </body>
+</body>
+
 </html>
