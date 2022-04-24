@@ -26,7 +26,9 @@ class Testimonial extends HTMLElement {
             </div>
             <div class="select-icon">
                 <i class="fas fa-angle-left next l" id="prev"></i>
-                <i class="fas fa-angle-right next r" id="next"></i>
+                <i class="fas fa-angle-right next r" id="nxt"></i>
+                 
+                
             </div>
     
             <div class="dots-container">

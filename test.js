@@ -4,7 +4,7 @@ const title = document.querySelector('#title')
 const testimony = document.querySelector('#testimony')
 const currentImg = document.querySelector('#img')
 const backgroundImage = document.querySelector('.profile')
-const next = document.querySelector('#next')
+const next = document.querySelector('#nxt')
 const prev = document.querySelector('#prev')
 const firstDot = document.querySelector('#one')
 const secondDot = document.querySelector('#two')
@@ -124,7 +124,6 @@ next.addEventListener('click', () => {
         three.classList.remove('active-dots')
         four.classList.add('active-dots')
     }
-
 });
 
 //prev btton clicked

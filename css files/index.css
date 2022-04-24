@@ -1009,7 +1009,7 @@ body {
   background-color: var(--HeaderBGOverlay);
   color: var(--primaryColor);
   cursor: pointer;
-
+z-index: 1;
   /* left: 0; */
 }
 
@@ -1214,6 +1214,7 @@ animation-timing-function: linear;
   background-color: #f3f7f9;
   box-shadow: 1px 1px 10px 1px #b4b5b6;
   /* border: 1px solid var(--primaryColor); */
+  z-index: 1;
 }
 
 .dots-container {
