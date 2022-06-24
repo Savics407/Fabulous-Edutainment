@@ -1,13 +1,17 @@
 <?php
-	$name = $_POST['name'];
+	$fname = $_POST['fname'];
+	$lname = $_POST['lname'];
 	$visitor_email = $_POST['email'];
 	$message = $_POST['message'];
+	$tel = $_POST['tel'];
 
 	$email_from = 'noreply@fabulousedutainment.com';
 
-	$email_subject = "New Contact form Submission";
+	$email_subject = "Contact Message from fabulousedutainment.com";
 
-	$email_body = " Name of User: $name.\n".
+	$email_body = "Name of User: $fname.\n".
+					"Last name: $lname.\n".
+					"Phone No.: $tel.\n".
 					"Email Address: $visitor_email.\n".
 					"User Message: $message.\n";
 

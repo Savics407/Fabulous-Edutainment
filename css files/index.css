@@ -1681,7 +1681,8 @@ form {
 }
 
 .inputs input,
-.submit input {
+.submit button 
+{
   /* border-radius: 10px; */
   border: none;
   padding: 0.8em;
@@ -1756,7 +1757,7 @@ textarea {
   text-align: center;
   padding: 1em;
 }
-.submit input {
+.submit button {
   /* border: 1px solid; */
   border-radius: 5px;
   cursor: pointer;
@@ -1771,7 +1772,7 @@ textarea {
   font-size: 14px;
   transition: 0.5s;
 }
-.submit input:hover {
+.submit button:hover {
   background-image: linear-gradient(
     to right,
     var(--HeaderBGOverlay),
