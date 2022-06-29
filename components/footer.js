@@ -16,10 +16,10 @@ class Footer extends HTMLElement {
                     <h2 class="footer-heading">Important Links</h2>
                     <ul class="lists">
                         <a href="about"><li>About</li></a>
-                        <a href="https://fabulousedutainment.com/talent-school/"><li>Talent School</li></a>
-                        <a href="https://fabulousedutainment.com/talent-school/"><li>Goat9ja</li></a>
+                        <a href="https://xeenate.fabulousedutainment.com"><li>Xeenate</li></a>
+                        <a href="https://xeenate.fabulousedutainment.com/"><li>Goat9ja</li></a>
                         <!--<a href="#"><li>Our Services</li></a>-->
-                       <a href="https://fabulousedutainment.com/talent-school/"><li>Blog/ Community</li></a>
+                       <a href="https://xeenate.fabulousedutainment.com/"><li>Blog/ Community</li></a>
                         <a href="contact"><li>Contact Us</li></a>
                     </ul>
                 </div>

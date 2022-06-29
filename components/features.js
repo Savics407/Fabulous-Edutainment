@@ -8,7 +8,7 @@ class Features extends HTMLElement {
        <div class="features">
                    <div class="sec-header">
                        <h1 class="heading">Best <span class="span">Edutainment </span>Platform</h1> 
-                       <p class="heading-p">Providing Services and opportunities Scalable for the entire globe</p>
+                       <p class="heading-p">Connecting people and talents to the world of limitless opportunities.</p>
                     </div>
                     <div class="featured-blocks">
                         <div class="featured feat-bg1">

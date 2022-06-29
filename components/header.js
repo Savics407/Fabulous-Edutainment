@@ -13,9 +13,9 @@ class Header extends HTMLElement {
                     <ul class="navigation a">
                       <li class="nav_item"><a href="https://fabulousedutainment.com" class="active">Home</a></li>
                     <li class="nav_item"><a href="about">About</a></li>
-                      <li class="nav_item"><a href="https://fabulousedutainment.com/talent-school/">Talent School</a></li>
-                      <li class="nav_item"><a href="https://fabulousedutainment.com/talent-school/">Goat9ja</a></li>
-                      <li class="nav_item"><a href="https://fabulousedutainment.com/talent-school/">Blog</a></li>
+                      <li class="nav_item"><a href="https://xeenate.fabulousedutainment.com">Xeenate</a></li>
+                      <li class="nav_item"><a href="https://xeenate.fabulousedutainment.com/">Goat9ja</a></li>
+                      <li class="nav_item"><a href="https://xeenate.fabulousedutainment.com">Blog</a></li>
                       <li class="nav_item"><a href="contact">Contact</a></li>
                     </ul>
                     <div class="bar">
