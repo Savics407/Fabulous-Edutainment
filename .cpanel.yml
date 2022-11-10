@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/fabulo13/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
 #     - /bin/cp style.css $DEPLOYPATH
